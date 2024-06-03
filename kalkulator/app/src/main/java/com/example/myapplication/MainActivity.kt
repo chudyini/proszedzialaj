@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
             text.setText(text.text.toString()+button15.text.toString())
         }
         var button16 = findViewById(R.id.dot) as Button
-        // set on-click listener
+        // set on-click listenerr
         button16.setOnClickListener {
             // your code to perform when the user clicks on the button
             text.setText(text.text.toString()+button16.text.toString())
